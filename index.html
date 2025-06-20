@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <style>
+        body {
+            background-image: url(dorado.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+        .menu-horizontal ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background: rgba(255,255,255,0.85);
+        }
+        .menu-horizontal li {
+            margin: 0 20px;
+        }
+        .menu-horizontal a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+            font-size: 1.1rem;
+            padding: 15px 10px;
+            display: block;
+            transition: color 0.2s;
+        }
+        .menu-horizontal a:hover {
+            color: #b76eb8;
+        }
+        .carrusel-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 30px 0 30px 0;
+        }
+        .carrusel-btn {
+            background: #fff;
+            border: 1px solid #ccc;
+            font-size: 2rem;
+            cursor: pointer;
+            height: 60px;
+            width: 60px;
+            border-radius: 50%;
+            margin: 0 10px;
+        }
+        #carrusel-img {
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+        }
+        .bienvenida {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 1.2rem;
+            background: rgba(255,255,255,0.7);
+            display: inline-block;
+            padding: 10px 30px;
+            border-radius: 10px;
+        }
+
+        .contenedor-central {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px 20px;
+    background: rgba(255, 255, 255, 0.329); /* Fondo blanco semitransparente opcional */
+    border-radius: 18px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.10);
+}
+    </style>
+ </head>
+ <body>
+     <div class="contenedor-central">
+    <nav class="menu-horizontal">
+        <ul>
+            <li><a href="#">HISTORIA</a></li>
+            <li><a href="#">EDAD MEDIA</a></li>
+            <li><a href="#">POSTE DE BARBERIA</a></li>
+            <li><a href="#">BARBERIA EN LA ACTUALIDAD</a></li>
+        </ul>
+    </nav>
+
+    <h1> BARBER SHOP</h1>
+
+    <!-- Galería tipo collage -->
+<div class="collage-galeria">
+    <img src="CARAMELO.jpg" alt="CARAMELO">
+    <img src="Mechas.jpg" alt="Mechas">
+    <img src="tijera.jpg" alt="Tijera">
+    <img src="maquina1.jpg" alt="Maquina">
+</div>
+
+<style>
+.collage-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio entre imágenes */
+    margin: 30px 0;
+}
+.collage-galeria img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+    background: #fff;
+}
+.parrafo-transparente1 {
+    background: hwb(0 100% 0% / 0.678);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    
+}
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 25px;
+}
+</style>
+<div class=parrafo-transparente1>
+    <H2> HISTORIA DE LA BARBERIA </H2>
+    <hr>
+    <p>     
+La barbería, más que un oficio, 
+es considerada hoy día como una profesión con una historia de
+ más de 30 mil años. Uno de los primeros indicios de este
+  oficio data del antiguo Egipto, pues es sabido que miembros 
+  de las más altas castas, como los sacerdotes, recibían
+   una especie de servicio de corte que no solo incluía el 
+   cabello, sino algunos otros vellos del cuerpo.
+   <br>
+Según la historia de la barbería, este oficio de tonsore 
+incluía tanto el arreglo y cuidado de la barba, y el cabello,
+ como la aplicación de productos que les permitía mejorar su 
+apariencia diaria.
+    </p>
+</div>
+<div class="parrafo-transparente1">
+    <h2>EDAD MEDIA</h2>
+    <hr>
+<p>
+    Durante la Edad Media, la barbería se consolidó como un
+     oficio esencial en la sociedad europea. Los barberos no 
+     solo se encargaban del corte de cabello y barba, sino que 
+     también realizaban procedimientos médicos menores, como 
+     sangrías y extracciones dentales. Esta dualidad de funciones
+      llevó a que los barberos fueran vistos como figuras 
+      importantes en las comunidades, aunque con el tiempo, 
+      la práctica médica se separó de la barbería.
+    </p>
+    <img src="edad media.jpg" alt="edad media" style="display:block; margin:30px auto 0 auto; max-width:240px;"> 
+    </div>
+    
+    
+<div class="parrafo-transparente1">
+    <h2> POSTE DE BARBERIA </h2>
+    <hr>
+    <p>
+    El poste de barbería, conocido como "barber pole" en inglés,
+     es un símbolo icónico de las barberías. Su origen se remonta
+      a la Edad Media, cuando los barberos también realizaban 
+      procedimientos quirúrgicos. El poste, con sus colores rojo,
+       blanco y azul, representaba la sangre y las vendas utilizadas
+        en estos procedimientos. Hoy en día, el poste de barbería 
+        sigue siendo un símbolo de la profesión y se encuentra en 
+        muchas barberías alrededor del mundo.
+    </p>
+    <img src="Barber Barbershop GIF by Gedo salon.gif" alt="animacion" style="display:block; margin:40px auto 0 auto; max-width:200px">
+</div>
+        
+
+<div class="parrafo-transparente1">
+    <h2>BARBERIA EN LA ACTUALIDAD</h2>
+    <hr>
+    <p>
+        Los barberos modernos se benefician de los avances 
+        tecnológicos que han revolucionado sus herramientas. 
+        Las cortadoras eléctricas actuales, como las de Supreme 
+        Trimmer, incluyen múltiples velocidades y diversos 
+        accesorios de cuchillas, lo que permite precisión
+         y eficiencia. Las cortadoras y recortadoras 
+         inalámbricas de Supreme Trimmer ofrecen mayor
+          maniobrabilidad y comodidad. Además, la introducción
+           de cuchillas desechables de alta calidad y tijeras 
+           más ergonómicas ha simplificado muchos aspectos del
+            proceso de peluquería. Las herramientas digitales,
+             como las aplicaciones de reserva y los sistemas 
+             de pago digitales, también se han convertido en 
+             parte integral de la gestión de una 
+             barbería moderna.
+            </p>
+             <img src="ayd.jpeg" alt="antiguas" style="display:block; margin:30px auto 0 auto; max-width:200px;">
+</div>
+ <br>
+ <p>
+       <h4>
+           visita la web para saber mas sobre la barberia 
+           <a href="https://es.wikipedia.org/wiki/Barber%C3%ADa"
+           target="_blank">BARBERSHOP</a>
+        </h4>
+           <br>
+           <h6 style="text-align:center;">
+               THIS PAGE WAS PREPARED BY ABIGAIL RODRIGUEZ
+            </h6>
+    </p> 
+    </div>
+</body>
+</html>
