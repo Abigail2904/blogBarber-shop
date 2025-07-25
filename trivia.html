@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Barbería</title>
+
+ <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <div class="contenedor">
+        <h2>Trivia: Ordena las imágenes</h2>
+        <p>Ordena cronologicamente utilizando el número correspondiente de la historia de la barberia a la actualidad:</p>
+        <div class="imagenes">
+            <div class="img-num">
+        <img src="imag/maq.jpg" alt="Caramelo">
+        <span class="num">1</span>
+    </div>
+    <div class="img-num">
+        <img src="imag/maquina antigua.jpg" alt="Maquina">
+        <span class="num">2</span>
+    </div>
+    <div class="img-num">
+        <img src="imag/navaja.jpg" alt="navaja">
+        <span class="num">3</span>
+    </div>
+    <div class="img-num">
+        <img src="imag/poste barbe2 .jpg" alt="actualidad">
+        <span class="num">4</span>
+    </div>
+</div>
+        <form id="triviaForm">
+            <div class="orden-inputs">
+                <input type="number" min="1" max="4" required>
+                <input type="number" min="1" max="4" required>
+                <input type="number" min="1" max="4" required>
+                <input type="number" min="1" max="4" required>
+            </div>
+            <button type="submit">Comprobar</button>
+        </form>
+        <div class="resultado" id="resultado"></div>
+        <br>
+        <a href="index.html">Volver al inicio</a>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
