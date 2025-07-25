@@ -14,4 +14,9 @@
                 resultado.textContent = "Perdiste. Intenta de nuevo.";
                 resultado.style.color = "red";
             }
+            // Limpiar después de 5 segundos
+    setTimeout(() => {
+        resultado.textContent = "";
+        inputs.forEach(input => input.value = "");
+    }, 5000);
         });
